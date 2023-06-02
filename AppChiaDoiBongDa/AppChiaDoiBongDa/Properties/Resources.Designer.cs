@@ -63,6 +63,16 @@ namespace AppChiaDoiBongDa.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1 {
+            get {
+                object obj = ResourceManager.GetObject("1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _111 {
             get {
                 object obj = ResourceManager.GetObject("111", resourceCulture);
@@ -98,6 +108,16 @@ namespace AppChiaDoiBongDa.Properties {
             get {
                 object obj = ResourceManager.GetObject("fifa-world-cup-with-soccer-ball-on-green-field-in-stadium-wallpaper-2560x1080_142" +
                         "", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_exit {
+            get {
+                object obj = ResourceManager.GetObject("icon_exit", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

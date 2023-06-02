@@ -27,7 +27,7 @@ namespace AppChiaDoiBongDa
 
         private void btnRemove_Click(object sender, EventArgs e)
         {
-            if(listBox1.SelectedIndex != -1)
+            if (listBox1.SelectedIndex != -1)
             {
                 listBox1.Items.RemoveAt(listBox1.SelectedIndex);
             }
@@ -85,6 +85,11 @@ namespace AppChiaDoiBongDa
                 }
             }
             MessageBox.Show("Chia đội thành công");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

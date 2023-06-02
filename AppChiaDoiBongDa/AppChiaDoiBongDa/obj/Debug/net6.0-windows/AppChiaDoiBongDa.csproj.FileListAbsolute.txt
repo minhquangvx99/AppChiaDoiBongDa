@@ -16,3 +16,21 @@ C:\Users\nmqhd\AppChiaDoiBongDa\AppChiaDoiBongDa\AppChiaDoiBongDa\obj\Debug\net6
 C:\Users\nmqhd\AppChiaDoiBongDa\AppChiaDoiBongDa\AppChiaDoiBongDa\obj\Debug\net6.0-windows\AppChiaDoiBongDa.genruntimeconfig.cache
 C:\Users\nmqhd\AppChiaDoiBongDa\AppChiaDoiBongDa\AppChiaDoiBongDa\obj\Debug\net6.0-windows\ref\AppChiaDoiBongDa.dll
 C:\Users\nmqhd\AppChiaDoiBongDa\AppChiaDoiBongDa\AppChiaDoiBongDa\obj\Debug\net6.0-windows\AppChiaDoiBongDa.Properties.Resources.resources
+D:\My Code\AppChiaDoiBongDa\AppChiaDoiBongDa\AppChiaDoiBongDa\bin\Debug\net6.0-windows\AppChiaDoiBongDa.exe
+D:\My Code\AppChiaDoiBongDa\AppChiaDoiBongDa\AppChiaDoiBongDa\bin\Debug\net6.0-windows\AppChiaDoiBongDa.deps.json
+D:\My Code\AppChiaDoiBongDa\AppChiaDoiBongDa\AppChiaDoiBongDa\bin\Debug\net6.0-windows\AppChiaDoiBongDa.runtimeconfig.json
+D:\My Code\AppChiaDoiBongDa\AppChiaDoiBongDa\AppChiaDoiBongDa\bin\Debug\net6.0-windows\AppChiaDoiBongDa.dll
+D:\My Code\AppChiaDoiBongDa\AppChiaDoiBongDa\AppChiaDoiBongDa\bin\Debug\net6.0-windows\AppChiaDoiBongDa.pdb
+D:\My Code\AppChiaDoiBongDa\AppChiaDoiBongDa\AppChiaDoiBongDa\obj\Debug\net6.0-windows\AppChiaDoiBongDa.csproj.AssemblyReference.cache
+D:\My Code\AppChiaDoiBongDa\AppChiaDoiBongDa\AppChiaDoiBongDa\obj\Debug\net6.0-windows\AppChiaDoiBongDa.Form1.resources
+D:\My Code\AppChiaDoiBongDa\AppChiaDoiBongDa\AppChiaDoiBongDa\obj\Debug\net6.0-windows\AppChiaDoiBongDa.Properties.Resources.resources
+D:\My Code\AppChiaDoiBongDa\AppChiaDoiBongDa\AppChiaDoiBongDa\obj\Debug\net6.0-windows\AppChiaDoiBongDa.csproj.GenerateResource.cache
+D:\My Code\AppChiaDoiBongDa\AppChiaDoiBongDa\AppChiaDoiBongDa\obj\Debug\net6.0-windows\AppChiaDoiBongDa.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Code\AppChiaDoiBongDa\AppChiaDoiBongDa\AppChiaDoiBongDa\obj\Debug\net6.0-windows\AppChiaDoiBongDa.AssemblyInfoInputs.cache
+D:\My Code\AppChiaDoiBongDa\AppChiaDoiBongDa\AppChiaDoiBongDa\obj\Debug\net6.0-windows\AppChiaDoiBongDa.AssemblyInfo.cs
+D:\My Code\AppChiaDoiBongDa\AppChiaDoiBongDa\AppChiaDoiBongDa\obj\Debug\net6.0-windows\AppChiaDoiBongDa.csproj.CoreCompileInputs.cache
+D:\My Code\AppChiaDoiBongDa\AppChiaDoiBongDa\AppChiaDoiBongDa\obj\Debug\net6.0-windows\AppChiaDoiBongDa.dll
+D:\My Code\AppChiaDoiBongDa\AppChiaDoiBongDa\AppChiaDoiBongDa\obj\Debug\net6.0-windows\refint\AppChiaDoiBongDa.dll
+D:\My Code\AppChiaDoiBongDa\AppChiaDoiBongDa\AppChiaDoiBongDa\obj\Debug\net6.0-windows\AppChiaDoiBongDa.pdb
+D:\My Code\AppChiaDoiBongDa\AppChiaDoiBongDa\AppChiaDoiBongDa\obj\Debug\net6.0-windows\AppChiaDoiBongDa.genruntimeconfig.cache
+D:\My Code\AppChiaDoiBongDa\AppChiaDoiBongDa\AppChiaDoiBongDa\obj\Debug\net6.0-windows\ref\AppChiaDoiBongDa.dll

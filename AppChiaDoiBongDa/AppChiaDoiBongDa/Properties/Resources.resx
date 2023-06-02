@@ -121,13 +121,19 @@
   <data name="fifa-world-cup-with-soccer-ball-on-green-field-in-stadium-wallpaper-2560x1080_141" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fifa-world-cup-with-soccer-ball-on-green-field-in-stadium-wallpaper-2560x1080_141.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\111.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="fifa-world-cup-with-soccer-ball-on-green-field-in-stadium-wallpaper-2560x1080_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fifa-world-cup-with-soccer-ball-on-green-field-in-stadium-wallpaper-2560x1080_14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fifa-world-cup-with-soccer-ball-on-green-field-in-stadium-wallpaper-2560x1080_142" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fifa-world-cup-with-soccer-ball-on-green-field-in-stadium-wallpaper-2560x1080_142.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="111" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\111.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

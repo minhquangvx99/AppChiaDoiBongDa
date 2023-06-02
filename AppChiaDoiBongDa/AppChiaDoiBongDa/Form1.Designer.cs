@@ -28,169 +28,190 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnStart = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.btnRemove = new System.Windows.Forms.Button();
-            this.btnClear = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.listBox2 = new System.Windows.Forms.ListBox();
-            this.listBox3 = new System.Windows.Forms.ListBox();
-            this.SuspendLayout();
+            btnStart = new Button();
+            label2 = new Label();
+            label3 = new Label();
+            listBox1 = new ListBox();
+            textBox1 = new TextBox();
+            label1 = new Label();
+            btnAdd = new Button();
+            btnRemove = new Button();
+            btnClear = new Button();
+            label4 = new Label();
+            listBox2 = new ListBox();
+            listBox3 = new ListBox();
+            button1 = new Button();
+            SuspendLayout();
             // 
             // btnStart
             // 
-            this.btnStart.BackColor = System.Drawing.Color.Chartreuse;
-            this.btnStart.Location = new System.Drawing.Point(154, 143);
-            this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(106, 23);
-            this.btnStart.TabIndex = 2;
-            this.btnStart.Text = "Bắt đầu chia đội";
-            this.btnStart.UseVisualStyleBackColor = false;
-            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
+            btnStart.BackColor = Color.Chartreuse;
+            btnStart.Location = new Point(176, 191);
+            btnStart.Margin = new Padding(3, 4, 3, 4);
+            btnStart.Name = "btnStart";
+            btnStart.Size = new Size(121, 31);
+            btnStart.TabIndex = 2;
+            btnStart.Text = "Bắt đầu chia đội";
+            btnStart.UseVisualStyleBackColor = false;
+            btnStart.Click += btnStart_Click;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Black;
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(582, 10);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 15);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Đội đen";
+            label2.AutoSize = true;
+            label2.BackColor = Color.Black;
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(537, 12);
+            label2.Name = "label2";
+            label2.Size = new Size(62, 20);
+            label2.TabIndex = 5;
+            label2.Text = "Đội đen";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.White;
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(695, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 15);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Đội trắng";
+            label3.AutoSize = true;
+            label3.BackColor = Color.White;
+            label3.ForeColor = Color.Black;
+            label3.Location = new Point(709, 13);
+            label3.Name = "label3";
+            label3.Size = new Size(72, 20);
+            label3.TabIndex = 6;
+            label3.Text = "Đội trắng";
             // 
             // listBox1
             // 
-            this.listBox1.BackColor = System.Drawing.Color.White;
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(12, 27);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(136, 409);
-            this.listBox1.TabIndex = 7;
+            listBox1.BackColor = Color.White;
+            listBox1.FormattingEnabled = true;
+            listBox1.ItemHeight = 20;
+            listBox1.Location = new Point(14, 36);
+            listBox1.Margin = new Padding(3, 4, 3, 4);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(155, 544);
+            listBox1.TabIndex = 7;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(154, 27);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.PlaceholderText = "VD: Quang - Thắng";
-            this.textBox1.Size = new System.Drawing.Size(142, 23);
-            this.textBox1.TabIndex = 8;
-            this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
+            textBox1.Location = new Point(176, 36);
+            textBox1.Margin = new Padding(3, 4, 3, 4);
+            textBox1.Name = "textBox1";
+            textBox1.PlaceholderText = "VD: Quang - Thắng";
+            textBox1.Size = new Size(162, 27);
+            textBox1.TabIndex = 8;
+            textBox1.KeyDown += textBox1_KeyDown;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(157, 8);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 15);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Nhập từng cặp";
+            label1.AutoSize = true;
+            label1.Location = new Point(179, 11);
+            label1.Name = "label1";
+            label1.Size = new Size(108, 20);
+            label1.TabIndex = 9;
+            label1.Text = "Nhập từng cặp";
             // 
             // btnAdd
             // 
-            this.btnAdd.BackColor = System.Drawing.Color.DarkOrange;
-            this.btnAdd.Location = new System.Drawing.Point(154, 56);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(75, 23);
-            this.btnAdd.TabIndex = 10;
-            this.btnAdd.Text = "Add";
-            this.btnAdd.UseVisualStyleBackColor = false;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            btnAdd.BackColor = Color.DarkOrange;
+            btnAdd.Location = new Point(176, 75);
+            btnAdd.Margin = new Padding(3, 4, 3, 4);
+            btnAdd.Name = "btnAdd";
+            btnAdd.Size = new Size(86, 31);
+            btnAdd.TabIndex = 10;
+            btnAdd.Text = "Add";
+            btnAdd.UseVisualStyleBackColor = false;
+            btnAdd.Click += btnAdd_Click;
             // 
             // btnRemove
             // 
-            this.btnRemove.BackColor = System.Drawing.Color.DarkOrange;
-            this.btnRemove.Location = new System.Drawing.Point(154, 85);
-            this.btnRemove.Name = "btnRemove";
-            this.btnRemove.Size = new System.Drawing.Size(75, 23);
-            this.btnRemove.TabIndex = 11;
-            this.btnRemove.Text = "Remove";
-            this.btnRemove.UseVisualStyleBackColor = false;
-            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
+            btnRemove.BackColor = Color.DarkOrange;
+            btnRemove.Location = new Point(176, 113);
+            btnRemove.Margin = new Padding(3, 4, 3, 4);
+            btnRemove.Name = "btnRemove";
+            btnRemove.Size = new Size(86, 31);
+            btnRemove.TabIndex = 11;
+            btnRemove.Text = "Remove";
+            btnRemove.UseVisualStyleBackColor = false;
+            btnRemove.Click += btnRemove_Click;
             // 
             // btnClear
             // 
-            this.btnClear.BackColor = System.Drawing.Color.DarkOrange;
-            this.btnClear.Location = new System.Drawing.Point(154, 114);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(75, 23);
-            this.btnClear.TabIndex = 12;
-            this.btnClear.Text = "Clear";
-            this.btnClear.UseVisualStyleBackColor = false;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            btnClear.BackColor = Color.DarkOrange;
+            btnClear.Location = new Point(176, 152);
+            btnClear.Margin = new Padding(3, 4, 3, 4);
+            btnClear.Name = "btnClear";
+            btnClear.Size = new Size(86, 31);
+            btnClear.TabIndex = 12;
+            btnClear.Text = "Clear";
+            btnClear.UseVisualStyleBackColor = false;
+            btnClear.Click += btnClear_Click;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Cyan;
-            this.label4.Location = new System.Drawing.Point(15, 10);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(105, 15);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "Danh sách các cặp";
+            label4.AutoSize = true;
+            label4.BackColor = Color.Cyan;
+            label4.Location = new Point(17, 13);
+            label4.Name = "label4";
+            label4.Size = new Size(131, 20);
+            label4.TabIndex = 13;
+            label4.Text = "Danh sách các cặp";
             // 
             // listBox2
             // 
-            this.listBox2.BackColor = System.Drawing.Color.Black;
-            this.listBox2.ForeColor = System.Drawing.Color.White;
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.ItemHeight = 15;
-            this.listBox2.Location = new System.Drawing.Point(555, 27);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(104, 409);
-            this.listBox2.TabIndex = 14;
+            listBox2.BackColor = Color.Black;
+            listBox2.ForeColor = Color.White;
+            listBox2.FormattingEnabled = true;
+            listBox2.ItemHeight = 20;
+            listBox2.Location = new Point(510, 36);
+            listBox2.Margin = new Padding(3, 4, 3, 4);
+            listBox2.Name = "listBox2";
+            listBox2.Size = new Size(118, 544);
+            listBox2.TabIndex = 14;
             // 
             // listBox3
             // 
-            this.listBox3.FormattingEnabled = true;
-            this.listBox3.ItemHeight = 15;
-            this.listBox3.Location = new System.Drawing.Point(674, 27);
-            this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(104, 409);
-            this.listBox3.TabIndex = 15;
+            listBox3.FormattingEnabled = true;
+            listBox3.ItemHeight = 20;
+            listBox3.Location = new Point(687, 36);
+            listBox3.Margin = new Padding(3, 4, 3, 4);
+            listBox3.Name = "listBox3";
+            listBox3.Size = new Size(118, 544);
+            listBox3.TabIndex = 15;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Red;
+            button1.Image = Properties.Resources.icon_exit;
+            button1.Location = new Point(872, -1);
+            button1.Name = "button1";
+            button1.Size = new Size(43, 32);
+            button1.TabIndex = 16;
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Cyan;
-            this.BackgroundImage = global::AppChiaDoiBongDa.Properties.Resources._111;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.listBox3);
-            this.Controls.Add(this.listBox2);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.btnClear);
-            this.Controls.Add(this.btnRemove);
-            this.Controls.Add(this.btnAdd);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.btnStart);
-            this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "App chia đội";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleMode = AutoScaleMode.Inherit;
+            BackColor = Color.Cyan;
+            BackgroundImage = Properties.Resources._1;
+            ClientSize = new Size(914, 600);
+            Controls.Add(button1);
+            Controls.Add(listBox3);
+            Controls.Add(listBox2);
+            Controls.Add(label4);
+            Controls.Add(btnClear);
+            Controls.Add(btnRemove);
+            Controls.Add(btnAdd);
+            Controls.Add(label1);
+            Controls.Add(textBox1);
+            Controls.Add(listBox1);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(btnStart);
+            FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "App chia đội";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -206,5 +227,6 @@
         private Label label4;
         private ListBox listBox2;
         private ListBox listBox3;
+        private Button button1;
     }
 }
