@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppChiaDoiBongDa", "AppChiaDoiBongDa\AppChiaDoiBongDa.csproj", "{F595F467-4007-484C-BC54-121C3F065C64}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupAppChiaDoi", "SetupAppChiaDoi\SetupAppChiaDoi.vdproj", "{DA26EF23-7528-4294-B0AB-FD53CD8DBA24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F595F467-4007-484C-BC54-121C3F065C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F595F467-4007-484C-BC54-121C3F065C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F595F467-4007-484C-BC54-121C3F065C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F595F467-4007-484C-BC54-121C3F065C64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA26EF23-7528-4294-B0AB-FD53CD8DBA24}.Debug|Any CPU.ActiveCfg = Debug
+		{DA26EF23-7528-4294-B0AB-FD53CD8DBA24}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {352B666E-B30A-48CA-9A8E-04CC6E6B9BE7}
+	EndGlobalSection
+EndGlobal
