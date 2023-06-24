@@ -46,7 +46,7 @@
             // btnStart
             // 
             btnStart.BackColor = Color.Chartreuse;
-            btnStart.Location = new Point(176, 191);
+            btnStart.Location = new Point(315, 235);
             btnStart.Margin = new Padding(3, 4, 3, 4);
             btnStart.Name = "btnStart";
             btnStart.Size = new Size(121, 31);
@@ -60,7 +60,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Black;
             label2.ForeColor = Color.White;
-            label2.Location = new Point(537, 12);
+            label2.Location = new Point(594, 12);
             label2.Name = "label2";
             label2.Size = new Size(62, 20);
             label2.TabIndex = 5;
@@ -71,7 +71,7 @@
             label3.AutoSize = true;
             label3.BackColor = Color.White;
             label3.ForeColor = Color.Black;
-            label3.Location = new Point(709, 13);
+            label3.Location = new Point(772, 13);
             label3.Name = "label3";
             label3.Size = new Size(72, 20);
             label3.TabIndex = 6;
@@ -80,28 +80,31 @@
             // listBox1
             // 
             listBox1.BackColor = Color.White;
+            listBox1.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
             listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 20;
-            listBox1.Location = new Point(14, 36);
+            listBox1.ItemHeight = 37;
+            listBox1.Location = new Point(4, 36);
             listBox1.Margin = new Padding(3, 4, 3, 4);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(155, 544);
+            listBox1.Size = new Size(300, 522);
             listBox1.TabIndex = 7;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(176, 36);
+            textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox1.Location = new Point(315, 36);
             textBox1.Margin = new Padding(3, 4, 3, 4);
+            textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.PlaceholderText = "VD: Quang - Thắng";
-            textBox1.Size = new Size(162, 27);
+            textBox1.PlaceholderText = "VD: Quang-Thắng";
+            textBox1.Size = new Size(200, 77);
             textBox1.TabIndex = 8;
             textBox1.KeyDown += textBox1_KeyDown;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(179, 11);
+            label1.Location = new Point(316, 11);
             label1.Name = "label1";
             label1.Size = new Size(108, 20);
             label1.TabIndex = 9;
@@ -110,7 +113,7 @@
             // btnAdd
             // 
             btnAdd.BackColor = Color.DarkOrange;
-            btnAdd.Location = new Point(176, 75);
+            btnAdd.Location = new Point(315, 121);
             btnAdd.Margin = new Padding(3, 4, 3, 4);
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(86, 31);
@@ -122,7 +125,7 @@
             // btnRemove
             // 
             btnRemove.BackColor = Color.DarkOrange;
-            btnRemove.Location = new Point(176, 113);
+            btnRemove.Location = new Point(316, 160);
             btnRemove.Margin = new Padding(3, 4, 3, 4);
             btnRemove.Name = "btnRemove";
             btnRemove.Size = new Size(86, 31);
@@ -134,7 +137,7 @@
             // btnClear
             // 
             btnClear.BackColor = Color.DarkOrange;
-            btnClear.Location = new Point(176, 152);
+            btnClear.Location = new Point(316, 198);
             btnClear.Margin = new Padding(3, 4, 3, 4);
             btnClear.Name = "btnClear";
             btnClear.Size = new Size(86, 31);
@@ -156,23 +159,25 @@
             // listBox2
             // 
             listBox2.BackColor = Color.Black;
+            listBox2.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
             listBox2.ForeColor = Color.White;
             listBox2.FormattingEnabled = true;
-            listBox2.ItemHeight = 20;
-            listBox2.Location = new Point(510, 36);
+            listBox2.ItemHeight = 37;
+            listBox2.Location = new Point(533, 36);
             listBox2.Margin = new Padding(3, 4, 3, 4);
             listBox2.Name = "listBox2";
-            listBox2.Size = new Size(118, 544);
+            listBox2.Size = new Size(181, 522);
             listBox2.TabIndex = 14;
             // 
             // listBox3
             // 
+            listBox3.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
             listBox3.FormattingEnabled = true;
-            listBox3.ItemHeight = 20;
-            listBox3.Location = new Point(687, 36);
+            listBox3.ItemHeight = 37;
+            listBox3.Location = new Point(719, 36);
             listBox3.Margin = new Padding(3, 4, 3, 4);
             listBox3.Name = "listBox3";
-            listBox3.Size = new Size(118, 544);
+            listBox3.Size = new Size(181, 522);
             listBox3.TabIndex = 15;
             // 
             // button1
